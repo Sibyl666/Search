@@ -34,6 +34,7 @@ class Form(QWidget):
             self.edit.clear()
 
     def search(self):
+        self.lst = []
         path = self.readconfig()
         searchname = self.edit.text()
 
